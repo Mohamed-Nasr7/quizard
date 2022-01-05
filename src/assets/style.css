@@ -9,3 +9,9 @@ body {
   height: 100vh;
   background-image: linear-gradient(to top, #bad3f0 0%, #e7f0fd 100%);
 }
+
+/* HOME */
+.home__title {
+  color: #376ca4;
+  font-weight: bold;
+}
