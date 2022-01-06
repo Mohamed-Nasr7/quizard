@@ -83,3 +83,7 @@ const initialState = [
     url: 'https://www.youtube.com/watch?v=e6EGQFJLl04',
   },
 ];
+
+const quizReducer = (state = initialState, action) => {
+  return state;
+};
