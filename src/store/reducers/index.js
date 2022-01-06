@@ -87,3 +87,5 @@ const initialState = [
 const quizReducer = (state = initialState, action) => {
   return state;
 };
+
+export default quizReducer;
