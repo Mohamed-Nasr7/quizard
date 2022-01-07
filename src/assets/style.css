@@ -11,6 +11,10 @@ body {
   background-image: linear-gradient(to top, #bad3f0 0%, #e7f0fd 100%);
 }
 
+.app {
+  padding: 1rem 10% 0;
+}
+
 /* HOME */
 .title {
   color: #376ca4;
