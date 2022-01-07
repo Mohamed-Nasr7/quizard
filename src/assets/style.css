@@ -16,7 +16,8 @@ body {
 }
 
 /* HOME */
-.title {
+.title,
+.home__title {
   color: #376ca4;
   font-weight: bold;
 }
