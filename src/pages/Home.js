@@ -8,7 +8,11 @@ function Home() {
   return (
     <div className='home'>
       <h3 className='home__title'>All quizzes</h3>
-      <section className='home__quizzes'></section>
+      <section className='home__quizzes'>
+        {quizzes.map(quiz => (
+          <QuizCard />
+        ))}
+      </section>
     </div>
   );
 }
