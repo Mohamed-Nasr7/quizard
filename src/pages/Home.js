@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import QuizCard from '../components/QuizCard';
 
 function Home() {
   const quizzes = useSelector(state => state);
