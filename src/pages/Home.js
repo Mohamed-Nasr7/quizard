@@ -2,6 +2,8 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 function Home() {
+  const quizzes = useSelector(state => state);
+
   return (
     <div className='home'>
       <h3 className='home__title'>All quizzes</h3>
